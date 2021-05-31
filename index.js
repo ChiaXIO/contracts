@@ -1,5 +1,5 @@
 export default {
-    token: '0x9364e119ad76e0346126afcbdf5c9f0189500cc5',
+    token: '0xa1879d7656edafe8256a7ad6d2e3f5bfe220de0b',
     factory: '0x9f1cd0e59e78F5288E2FCf43030c9010D4f2991D',
     router: '0xE58602aF2D7538ed18591070a77944Fe0CB593A8',
     blackHole: '0xB9dE3478031d283c97AAF8734049Ba905d8DAB1c',
