@@ -1,0 +1,143 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "renounceOwnership",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"constructor": {
+					"details": "Initializes the contract setting the deployer as the initial owner."
+				},
+				"owner()": {
+					"details": "Returns the address of the current owner."
+				},
+				"renounceOwnership()": {
+					"details": "Leaves the contract without owner. It will not be possible to call `onlyOwner` functions anymore. Can only be called by the current owner.     * NOTE: Renouncing ownership will leave the contract without an owner, thereby removing any functionality that is only available to the owner."
+				},
+				"transferOwnership(address)": {
+					"details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+				}
+			}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"core/token/Repurchase.sol": "Ownable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"core/interfaces/IChiaxSwapPair.sol": {
+			"keccak256": "0xfe550a707e658f00338a91ecbcdb96d903188e9a34f46e0c35158d5608b9cf5e",
+			"urls": [
+				"bzz-raw://44b9467b8accd95c0c293ad4dbb43bdb20f4e8262c650a69b9db750b878840b1",
+				"dweb:/ipfs/QmdXc8pgLkY655Fki3M418ZrBWANMqWDfpY2eXh9ATNgzf"
+			]
+		},
+		"core/interfaces/IERC20.sol": {
+			"keccak256": "0x400cec28c4fb125897f269d54e82c9b016c7226edbc46c48019360de45748477",
+			"urls": [
+				"bzz-raw://f3e9bb5c70d1679f43e97911789b362a60af7bd87fd9c8b086cb4198df6ff3bf",
+				"dweb:/ipfs/QmYsUPE6GWyBEE5GrF7SaL78PWSPqA9wBp1brH416ewP5r"
+			]
+		},
+		"core/libraries/EnumerableSet.sol": {
+			"keccak256": "0x10d83006be90b68ce9246de20f5f08d9bc07cc931ff585fc238f5591bf6aa65b",
+			"urls": [
+				"bzz-raw://025ca7d106cd4722d82d2e5e5fc04843872081c7f242bc8dd214c0b8af889912",
+				"dweb:/ipfs/QmbSQrDy2gxYEyEHs29jdoAseZKjDccSixc9xncb9NUtAK"
+			]
+		},
+		"core/libraries/MathV1.sol": {
+			"keccak256": "0x1ee8293b3b6ca085541cab0d764eb51ddefc53941202be4b5999d508f3f4e5e0",
+			"urls": [
+				"bzz-raw://a8b601a77eff1ecd8f826c2a1bdfd6e3fb7411edd7ecd6d53187cf16776f20c3",
+				"dweb:/ipfs/QmeCv22pWPdmyoy7zexeFvXL7ZgjycUJsSgVtLuzm2zHup"
+			]
+		},
+		"core/token/Repurchase.sol": {
+			"keccak256": "0x686c969d9756ee12d8083b74a6f2aeb6174c44807eb6da9546a3fbee5296b2a2",
+			"urls": [
+				"bzz-raw://01d8e772816511b0a8a2ccd9af4d7d571239515a2958113ed59682fa9040f3eb",
+				"dweb:/ipfs/QmVET8jJ8Zy3HRtKrzm8tgM4eMqVrivct9htdvk8j9K4zT"
+			]
+		}
+	},
+	"version": 1
+}

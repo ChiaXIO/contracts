@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount0",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "ChiaxSwapV2Call",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"core/interfaces/IChiaxSwapCallee.sol": "IChiaxSwapCallee"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"core/interfaces/IChiaxSwapCallee.sol": {
+			"keccak256": "0xb2eda124f102cfcd8fb8447399a20211827fcecb0bdd693141f2a3766fba6b71",
+			"urls": [
+				"bzz-raw://7a5369be96dffd55def0024c43106c009558bb2dda104ff5b499c3bcbe3b8647",
+				"dweb:/ipfs/QmXezhYZ6fbo2SG9qDnMYPcGz8mHPT7kgA3SjYkpCaY6Yz"
+			]
+		}
+	},
+	"version": 1
+}

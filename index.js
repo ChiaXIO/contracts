@@ -1,9 +1,9 @@
 export default {
-    token: '0xa1879d7656edafe8256a7ad6d2e3f5bfe220de0b',
-    factory: '0x9f1cd0e59e78F5288E2FCf43030c9010D4f2991D',
-    router: '0xE58602aF2D7538ed18591070a77944Fe0CB593A8',
-    blackHole: '0xB9dE3478031d283c97AAF8734049Ba905d8DAB1c',
-    invite: '0x01a35d6B964e591806a6606443ee4c57d5e5f67f',
-    pool: '0x0604f2781ef5712130af4d941cb79257513d1693',
-    repurchase: '0x0bc85A018a3Dd6aAb4A4E384a12D6a2336524188'
+    token: '0x58EC55f2B564bf1f32A089236106Ab14F5f77f42',
+    factory: '0x2DF36eF39AEE212f45Ba2B942d5991BF2a262eee',
+    router: '0x14F67211fDe84b19de46f8f289bFc7442D9BC92B',
+    blackHole: '',
+    invite: '',
+    pool: '',
+    repurchase: ''
 }
