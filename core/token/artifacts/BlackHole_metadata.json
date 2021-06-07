@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.12+commit.7709ece9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"core/token/BlackHole.sol": "BlackHole"
+		},
+		"evmVersion": "petersburg",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"core/token/BlackHole.sol": {
+			"keccak256": "0x8b2d09e7b8c75cd3cdefd2834420a5b1e4e6ead3bab3d0506524b166d1d16cad",
+			"urls": [
+				"bzz-raw://3c3612a4d92556ada3aeab6f55f51a5c8d04fd6c61a16da68b25277ae39b3329",
+				"dweb:/ipfs/QmT6TstyUCJwVukSwNJSB3LNrG2j23JJayuS5KEYhv1ssi"
+			]
+		}
+	},
+	"version": 1
+}
